@@ -24,6 +24,7 @@ function Animes() {
         <Anime 
         key={anime.id} 
         anime={anime.name} 
+        description={anime.description}
          />)
       ) : (
         <p>No animes to display</p>
